@@ -1,0 +1,9 @@
+.card {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.example-header-image {
+  background-image: url("/assets/mitocode.png");
+  background-size: cover;
+}

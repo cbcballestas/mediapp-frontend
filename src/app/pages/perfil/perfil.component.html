@@ -1,0 +1,22 @@
+<div
+  fxLayout="row"
+  fxLayout.xs="column"
+  fxLayoutAlign="center"
+  fxLayoutWrap
+  fxLayoutGap="0.5%"
+>
+  <mat-card class="card" *ngIf="decodedToken">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Datos del usuario</mat-card-title>
+    </mat-card-header>
+    <mat-card-content style="margin-top: 20px;">
+      <mat-label> Usuario: {{ decodedToken.user_name }} </mat-label>
+      <p></p>
+      <mat-label><b>Rol:</b></mat-label>
+      <ul>
+        <li *ngFor="let rol of decodedToken.authorities">{{ rol }}</li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+</div>
