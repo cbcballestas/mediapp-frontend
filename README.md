@@ -1,10 +1,10 @@
-# MediappFrontend (Evaluación A)
+# Evaluación Final - Curso Java Full Stack (Evaluación A)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 ## Aspectos a tener en cuenta ⚠
 
-- La ruta correspondiente al módulo de signos vitales es `/signos-vitales`
+La ruta correspondiente al módulo de signos vitales es `/signos-vitales`
 
 ## Development server
 
