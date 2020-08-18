@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - La ruta correspondiente al módulo de signos vitales es `/signos-vitales`
 
-- Éste proyecto corresponde a la solución de la **EVALUACIÓN A**
+- Éste proyecto corresponde al proyecto frontend de la **EVALUACIÓN A**
 
 ## Development server
 
